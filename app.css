@@ -70,7 +70,7 @@ button{
     background-color: aquamarine;
     padding-right: 7rem;
     box-shadow: none;
-    color: rgb(117, 115, 115)
+    color: rgb(117, 115, 115);
 }
 
 #cancel:hover{
@@ -87,4 +87,33 @@ button{
 
 button:hover{
     font-size: 14px;
+}
+
+@media (max-width: 320px) {
+    .body {
+        text-align: center;
+    }
+
+    .mainContent{
+       background-image: url("images/pattern-background-mobile.svg"); 
+       background-position: center;
+       background-repeat: no-repeat;
+       margin: 2rem 28rem;
+       width: 320px;
+       height: fit-content;
+    }
+    
+    .description, .price{
+        font-size: 10px;
+    }
+
+    .description {
+        padding-bottom: 1rem;
+    }
+
+    .big-image{
+        width: 300px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
 }
