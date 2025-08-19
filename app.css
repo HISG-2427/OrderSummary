@@ -89,7 +89,7 @@ button:hover{
     font-size: 14px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1900px) {
     .body {
         text-align: center;
         background-image: url("images/pattern-background-mobile.svg"); 
