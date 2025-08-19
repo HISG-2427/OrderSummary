@@ -92,15 +92,14 @@ button:hover{
 @media (max-width: 320px) {
     .body {
         text-align: center;
+        background-image: url("images/pattern-background-mobile.svg"); 
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .mainContent{
-       background-image: url("images/pattern-background-mobile.svg"); 
-       background-position: center;
-       background-repeat: no-repeat;
-       margin: 2rem 28rem;
-       width: 320px;
-       height: fit-content;
+       width: 300px;
+       background-color: aquamarine;
     }
     
     .description, .price{
