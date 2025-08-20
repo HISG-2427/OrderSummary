@@ -5,9 +5,9 @@ body {
 
 .mainContent{
     text-align: center;
-    margin: 40%;
+    margin: 28.5em;
     margin-top: 5em;
-    background-color: aquamarine;
+    background-color: white;
     border-radius: 10%;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: rgb(134, 233, 200);
+    background-color: rgb(248, 250, 249);
     margin: 0px 25px;
 }
 
@@ -80,7 +80,7 @@ button{
 }
 
 #cancel {
-    background-color: aquamarine;
+    background-color: white;
     padding-right: 7rem;
     box-shadow: none;
     color: rgb(117, 115, 115);
@@ -113,7 +113,6 @@ button:hover{
 
     .mainContent{
         width: 40%;
-        background-color: aquamarine;
         margin: 35%;
         margin-top: 30ems;
     }
