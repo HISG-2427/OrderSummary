@@ -5,23 +5,30 @@ body {
 
 .mainContent{
     text-align: center;
-    margin: 2rem 28rem;
+    margin: 40%;
+    margin-top: 5em;
     background-color: aquamarine;
     border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .buying-plan {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     background-color: rgb(134, 233, 200);
     margin: 0px 25px;
 }
 
 .buying-plan a{
-    margin-top: 20px;
+    margin-top: 2%;
     color: blue;
     font-weight: bolder;
-    margin-right: 30px;
+    margin-right: 3%;
 }
 
 .annual-plan {
@@ -48,6 +55,10 @@ body {
     width: 100%;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 button{
@@ -91,17 +102,20 @@ button:hover{
     font-size: 14px;
 }
 
-@media (max-width: 1900px) {
+@media (max-width: 1200px) {
     .body {
         text-align: center;
         background-image: url("images/pattern-background-mobile.svg"); 
         background-position: center;
         background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .mainContent{
-       width: 300px;
-       background-color: aquamarine;
+        width: 40%;
+        background-color: aquamarine;
+        margin: 35%;
+        margin-top: 30ems;
     }
     
     .description, .price{
@@ -111,10 +125,18 @@ button:hover{
     .description {
         padding-bottom: 1rem;
     }
+}
 
-    .big-image{
-        width: 300px;
-        margin-right: 10px;
-        margin-left: 0px;
+@media screen and (max-width: 650px){
+    .mainContent{
+        width: 65.5%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .mainContent {
+        width: 77%;
+        margin-left: 15%;
     }
 }
