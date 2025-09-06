@@ -5,10 +5,11 @@ body {
 
 .mainContent{
     text-align: center;
-    margin: 40%;
-    margin-top: 35em;
+    width: 350px;
+    margin: 30%;
+    margin-top: 10em;
     background-color: white;
-    border-radius: 10%;
+    border-radius: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
